@@ -9,8 +9,8 @@ import { Badge } from "@/components/ui/badge"
 import { Loader2 } from "lucide-react"
 
 // Initialize Supabase client
-const supabaseUrl = "https://your-project-url.supabase.co"
-const supabaseKey = "your-anon-key"
+const supabaseUrl = "https://uvhgcllcxhspxqkiqgyd.supabase.co"
+const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InV2aGdjbGxjeGhzcHhxa2lxZ3lkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY4NzEwODYsImV4cCI6MjA2MjQ0NzA4Nn0.XcCqwBBue6ToCfzqIGme42PIiUde-qxebH3FKkS_di4"
 const supabase = createClient(supabaseUrl, supabaseKey)
 
 // Type definitions
